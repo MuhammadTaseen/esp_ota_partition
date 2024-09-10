@@ -1,0 +1,8 @@
+# test table for binaris provided v1.0.0
+nvs,      data, nvs,        ,          0x16000,
+otadata,  data, ota,        ,          0x2000,
+phy_init, data, phy,     ,             0x1000,
+ota_0,    app,  ota_0,      ,          2700K,
+ota_1,    app,  ota_1,      ,          2700K,
+storage,  data, spiffs,     ,          8000k,
+# coredump, data,  coredump,  ,         0x20000,
